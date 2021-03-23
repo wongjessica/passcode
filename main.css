@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}
+
+#grid {
+    padding-top: 25px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+div {
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+  }
+  
+input:invalid {
+  border: 1px dashed red;
+}
+
+input:valid {
+  border: 1px solid black;
+}

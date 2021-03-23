@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Enter the Secret Code</h1>
+      <img src = "pics/lock.png" height="300" width="300">
+    </div>
+
+    <form name = "form" onsubmit="return checkForm()">
+      <div>
+        <label for="code">Input Code (Sequential Order)</label>
+        <input id="code1" type="number" name="code1" min="0" max="99" required>
+        <input id="code2" type="number" name="code2" min="0" max="99" required>
+        <input id="code3" type="number" name="code3" min="0" max="99" required>
+        <input id="code4" type="number" name="code4" min="0" max="99" required>
+        <span class="validity"></span>
+      </div>
+      <div>
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
