@@ -6,13 +6,11 @@ let switchBtn = document.querySelector('input[type="button"]');
 
 function checkForm() {
   if(form.code1.value === '21' && form.code2.value === '34' && form.code3.value === '55' && form.code4.value === '89') {
-    alert("Congrats!");
-    console.log("congrats");
+    alert("Congrats! You completed the game.");
     return false;
   }
   else {
-    console.log("try again");
-    alert("Error: Wrong Code");
+    alert("Sorry: Wrong Code, Try Again");
     return false;
   }
 }
